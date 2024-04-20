@@ -1,5 +1,5 @@
-const execa = require("execa");
-const fs = require("fs");
+import execa from "execa";
+import { existsSync } from "fs";
 
 (async () => {
   try {
@@ -7,7 +7,7 @@ const fs = require("fs");
     console.log("Building...");
     await execa("npm", ["run", "build"]);
     // Understand if it's dist or build folder
-    const folderName = fs.existsSync("dist") ? "dist" : "build";
+    const folderName = existsSync("dist") ? "dist" : "build";
     await execa("git", ["--work-tree", folderName, "add", "--all"]);
     await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
     console.log("Pushing to gh-pages...");
@@ -17,7 +17,6 @@ const fs = require("fs");
     await execa("git", ["branch", "-D", "gh-pages"]);
     console.log("Successfully deployed");
   } catch (e) {
-    console.log(e.message);
-    process.exit(1);
+    console.log("Deu merda: ", e.message);
   }
 })();

@@ -8,6 +8,9 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  
+  base: process.env.NODE_ENV === "production" ? "/e-portifolio/" : "/",
+  
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

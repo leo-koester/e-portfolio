@@ -1,4 +1,25 @@
 {
+    
+    "compilerOptions": {
+        "module": "es2020",
+        "lib": [
+            "es5",
+            "es6",
+            "ES2015",
+            "dom"
+        ],
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "composite": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+    },
+    
     "files": [],
     "references": [
         {
