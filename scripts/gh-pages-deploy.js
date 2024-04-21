@@ -13,11 +13,17 @@ import { existsSync } from "fs";
     console.log("Pushing to gh-pages...");
     await execa("git", ["push", "origin", "HEAD:gh-pages", "--force"]);
     //await execa("rm", ["-r", folderName]); // only on linux
-    //await execa("rmdir", ["/s /q", folderName]);
-    await execa("git", ["checkout", "-f", "master"]);
+    try {
+      await execa("del", ["/f /q /s", `${folderName}/*.*`]);
+      await execa("rmdir", ["/s /q", folderName]);
+    }
+    catch (e) {
+      console.log( "\nERROR: ", e, "\n" );
+    }
+    await execa("git", ["checkout", "-f", "main"]);
     await execa("git", ["branch", "-D", "gh-pages"]);
     console.log("Successfully deployed");
   } catch (e) {
-    console.log("Deu merda: ", e.message);
+    console.log("\nDeu merda: ", e.message, "\n");
   }
 })();
