@@ -26,7 +26,8 @@ import { existsSync } from "fs";
     //   try { await execa("rmdir", ["/s /q", folderName]); } catch (e) { console.log( "\nERROR: ", e, "\n" ); }
     // },2000);
     
-    console.log("Successfully deployed", "\n\n", "Ensure to delete /dist and /build manually");
+    console.log("Successfully deployed \n\n");
+    console.log("Ensure to delete /dist and /build manually\n\n");
     
   } 
   catch (e) {
