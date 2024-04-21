@@ -11,6 +11,7 @@
         "paths": {
             "@/*": ["./src/*"],
         },
+        "outDir": "./build",
         
         //"noEmit": true,
         "module": "es2020",
@@ -29,7 +30,7 @@
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "sourceMap": true,
-    },
+    }
     
     //"files": []
     
