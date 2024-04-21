@@ -15,6 +15,8 @@ import { existsSync } from "fs";
     //await execa("rm", ["-r", folderName]); // only on linux
     try {
       //await execa("del", ["/f /q /s", `../${folderName}/*.*`]);
+      const resp = await execa("dir", [`../${folderName}`]);
+      console.log(resp);
       await execa("rmdir", ["/s /q", `../${folderName}`]);
     }
     catch (e) {
