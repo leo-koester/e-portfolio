@@ -16,8 +16,9 @@ import { existsSync } from "fs";
     await execa("git", ["checkout", "-f", "main"]);
     await execa("git", ["branch", "-D", "gh-pages"]);
     
-    try { await execa("del", ["/f /q /s", `${folderName}`]); } catch (e) { console.log( "\nERROR: ", e, "\n" ); }
-    try { await execa("rmdir", ["/s /q", folderName]); } catch (e) { console.log( "\nERROR: ", e, "\n" ); }
+    setTimeout( async ()=>{
+      try { await execa("rmdir", ["/s /q", folderName]); } catch (e) { console.log( "\nERROR: ", e, "\n" ); }
+    },2000);
     
     console.log("Successfully deployed");
   } catch (e) {
