@@ -9,7 +9,7 @@ export default defineConfig({
     vue(),
   ],
   
-  base: process.env.NODE_ENV === "production" ? "/e-portifolio/" : "/",
+  base: process.env.NODE_ENV === "production" ? "/e-portfolio/" : "/",
   
   resolve: {
     alias: {

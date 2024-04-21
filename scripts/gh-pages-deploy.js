@@ -1,6 +1,12 @@
 import {execa} from "execa";
 import { existsSync } from "fs";
 
+/**
+ * @source https://learnvue.co/articles/deploy-vue-to-github-pages
+ * @source https://medium.com/@Roli_Dori/deploy-vue-cli-3-project-to-github-pages-ebeda0705fbd
+ * @source https://dev.to/the_one/deploy-to-github-pages-like-a-pro-with-github-actions-4hdg
+ */
+
 (async () => {
   try {
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
