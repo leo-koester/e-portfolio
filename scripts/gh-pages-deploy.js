@@ -16,9 +16,7 @@ import { existsSync } from "fs";
     await execa("git", ["checkout", "-f", "main"]);
     await execa("git", ["branch", "-D", "gh-pages"]);
     try {
-      //await execa("del", ["/f /q /s", `../${folderName}/*.*`]);
-      const resp = await execa("dir", [folderName]);
-      console.log(resp);
+      await execa("del", ["/f /q /s", `${folderName}/*`]);
       await execa("rmdir", ["/s /q", folderName]);
     }
     catch (e) {
