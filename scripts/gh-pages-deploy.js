@@ -16,12 +16,14 @@ import { existsSync } from "fs";
     await execa("git", ["checkout", "-f", "main"]);
     await execa("git", ["branch", "-D", "gh-pages"]);
     
-    setTimeout( async ()=>{
-      try { await execa("rmdir", ["/s /q", folderName]); } catch (e) { console.log( "\nERROR: ", e, "\n" ); }
-    },2000);
+    // setTimeout( async ()=>{
+    //   try { await execa("rmdir", ["/s /q", folderName]); } catch (e) { console.log( "\nERROR: ", e, "\n" ); }
+    // },2000);
     
-    console.log("Successfully deployed");
-  } catch (e) {
-    console.log("\nDeu merda: ", e.message, "\n");
+    console.log("Successfully deployed", "\n\n", "Ensure to delete /dist and /build manually");
+    
+  } 
+  catch (e) {
+    console.log("\nSome shit happened: ", e.message, "\n");
   }
 })();
