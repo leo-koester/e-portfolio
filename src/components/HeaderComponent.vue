@@ -6,7 +6,7 @@
             <RouterLink class="image leo-icon" to="/" title="Home"></RouterLink>
             <RouterLink to="/projects" title="Projects">Projects</RouterLink>
             <!-- <RouterLink to="/about" title="About">About</RouterLink> -->
-            <a href="/resume.pdf" target="_blank">R&eacute;sum&eacute;</a>
+            <a href="./resume.pdf" target="_blank">R&eacute;sum&eacute;</a>
         </nav>
     </header>
 </template>
