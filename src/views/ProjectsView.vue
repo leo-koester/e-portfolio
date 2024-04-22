@@ -2,7 +2,7 @@
     <main>
         
         <div v-for="(project, key) in projectList" :key="key" :class="['main', 'project', 'box-shadow', key%2?'flipped':'']" >
-            <div class="image" :style="{backgroundImage: `url(${project.images[0].src})`}" :title="project.images[0].title" ></div>
+            <div class="image" :style="{backgroundImage: `url(.${project.images[0].src})`}" :title="project.images[0].title" ></div>
             <div class="details">
                 <h2>{{ project.name }}</h2>
                 <h3>{{ project.purpose }}</h3>
