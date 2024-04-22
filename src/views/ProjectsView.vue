@@ -39,7 +39,7 @@ export default {
 <style scoped >
 .image {
     min-width: 50%;
-    background-size: 110% auto;
+    background-size: auto 110%;
     transition: all 0.5s;
     border-width: 0 1px 0 1px;
     border-style: solid;
@@ -47,7 +47,7 @@ export default {
 }
 
 .main:hover .image {
-    background-size: 115% auto;
+    background-size: auto 115%;
     border-color: transparent var(--color-border-hover) transparent var(--color-border-hover);
 }
 
@@ -56,6 +56,6 @@ export default {
 }
 
 .main + .main {
-    margin-top: 40px
+    margin-top: 80px
 }
 </style>

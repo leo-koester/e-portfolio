@@ -40,5 +40,38 @@
         "links": [
             { "title": "Original website", "url": "https://exmouthviewhotel.yolasite.com/" }
         ]
+    },
+    
+    {
+        "name": "ALSA Editor",
+        "date": "2023",
+        "purpose": "MS Access SQL Editor",
+        "description": "A personal project created while learning Java at Saskatchewan Polytechnic. The main objective was to provide better SQL editing capabilities when using MS Access \"databases\" with a class project.",
+        "technologies": [
+            "Java",
+            "MS Access"
+        ],
+        "images": [
+            { "title": "Main screen", "src": "/alsaeditor01.png" }
+        ],
+        "links": []
+    },
+    
+    {
+        "name": "Sistema TLS",
+        "date": "2003-present",
+        "purpose": "Intranet - CVC Santa Catarina Branch",
+        "description": "This is where I started my career over 20 years ago, and where I find myself spending most of my \"free\" time nowadays as I've still been working for the company as a freelancer. Throughout these years, I implemented several tools and systems for accomplishing the company's needs, including integration with remote fingerprint scanners, graphic design tools for generating social media posts and incorporating instant messengers into the main system, among many other functionalities.",
+        "technologies": [
+            "PHP",
+            "Classic ASP",
+            "Javascript",
+            "Oracle",
+            "SQL",
+            "Delphi"
+        ],
+        "images": [
+            { "title": "Home Page", "src": "/tls01.png" }
+        ]
     }
 ]

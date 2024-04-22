@@ -1,12 +1,11 @@
 <template>
     <header>
         <nav>
-            <!-- <img src="/leosoft.svg"> -->
-            <!-- <div class="image leo-icon" ></div> -->
             <RouterLink class="image leo-icon" to="/" title="Home"></RouterLink>
             <RouterLink to="/projects" title="Projects">Projects</RouterLink>
-            <!-- <RouterLink to="/about" title="About">About</RouterLink> -->
+            <RouterLink to="/about" title="About" v-if="false" >About</RouterLink>
             <a href="./resume.pdf" target="_blank">R&eacute;sum&eacute;</a>
+            <RouterLink to="/contact" title="Contact">Contact</RouterLink>
         </nav>
     </header>
 </template>
@@ -27,11 +26,6 @@ header {
     box-shadow: 0px 3px 30px -10px rgba(0,0,0,0.2);
 }
 
-/* img {
-    height: 48px;
-    border-radius: 50%;
-} */
-
 .leo-icon {
     display: block;
     width: 56px;
@@ -50,14 +44,17 @@ nav {
     align-items: center;
 }
 nav > * {
-    /* flex-grow: 1; */
-    margin: 0 20px;
+    margin: 0 3vw;
 }
 
 @media (prefers-color-scheme: dark) {
     .leo-icon {
         background-color: var(--color-background-mute);
     }
+}
+
+@media screen and ( max-width: 400px ) {
+    
 }
 
 </style>

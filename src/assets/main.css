@@ -33,6 +33,19 @@ main {
     margin: 120px auto 0 auto;
 }
 
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    padding: 10px;
+    background-color: var( --color-background-mute );
+    border: var(--color-border);
+}
+
+button {
+    border: var(--color-border-hover);
+}
+
 .image {
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,5 +109,12 @@ main {
     
     .box-shadow {
         border-radius: 10px 10px 30px 30px !important;
+    }
+}
+
+
+@media screen and ( max-width: 400px ) {
+    body {
+        font-size: smaller;
     }
 }
