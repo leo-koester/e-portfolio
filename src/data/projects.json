@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Elder-ChatGPT",
+        "date": "2023-2024",
+        "purpose": "Capstone Project - Saskatchewan Polytechnic",
+        "description": "Voice-based AI platform aimed at revolutionizing the early detection and monitoring of cognitive impairments such as Mild Cognitive Impairment and Alzheimer’s Disease-Related Dementias. Sponsored by Kin-Keepers, I had the opportunity to work close to its CEO, Jose Ramos, as the project's Architect.",
+        "technologies": [
+            "Node.js",
+            "Vue",
+            "I18N",
+            "TypeORM",
+            "SQLite",
+            "MySQL"
+        ],
+        "images": [
+            { "title": "Home Page", "src": "/elderchatgpt01.png" },
+            { "title": "Test Page - MyBrainTest", "src": "/elderchatgpt02.png" }
+        ],
+        "links": [
+            { "title": "Project Site", "url": "http://saskatchewan.elderchatgpt.com" },
+            { "title": "Kin-Keepers", "url": "http://kin-keepers.com" }
+        ]
+    },
+    
+    {
+        "name": "Exmouth View Hotel",
+        "date": "2023",
+        "purpose": "Class Project - Saskatchewan Polytechnic",
+        "description": "This project was about recreating a website that would be used to provide guests with a comfortable way to access relevant information about their stay. Based on the website of a demolished hotel in 2016, the Exmouth View Hotel, served as the main project for classes CWEB-195 and CWEB-280.",
+        "technologies": [
+            "Node.js",
+            "Vue",
+            "TypeORM",
+            "SQLite"
+        ],
+        "images": [
+            { "title": "Home Page", "src": "/exmouthview01.png" },
+            { "title": "Rooms Page", "src": "/exmouthview02.png" }
+        ],
+        "links": [
+            { "title": "Original website", "url": "https://exmouthviewhotel.yolasite.com/" }
+        ]
+    }
+]
