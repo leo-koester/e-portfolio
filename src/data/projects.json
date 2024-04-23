@@ -13,8 +13,8 @@
             "MySQL"
         ],
         "images": [
-            { "title": "Home Page", "src": "/elderchatgpt01.png" },
-            { "title": "Test Page - MyBrainTest", "src": "/elderchatgpt02.png" }
+            { "title": "Home Page", "src": "/images/elderchatgpt01.png" },
+            { "title": "Test Page - MyBrainTest", "src": "/images/elderchatgpt02.png" }
         ],
         "links": [
             { "title": "Project Site", "url": "http://saskatchewan.elderchatgpt.com" },
@@ -34,8 +34,8 @@
             "SQLite"
         ],
         "images": [
-            { "title": "Home Page", "src": "/exmouthview01.png" },
-            { "title": "Rooms Page", "src": "/exmouthview02.png" }
+            { "title": "Home Page", "src": "/images/exmouthview01.png" },
+            { "title": "Rooms Page", "src": "/images/exmouthview02.png" }
         ],
         "links": [
             { "title": "Original website", "url": "https://exmouthviewhotel.yolasite.com/" }
@@ -52,7 +52,7 @@
             "MS Access"
         ],
         "images": [
-            { "title": "Main screen", "src": "/alsaeditor01.png" }
+            { "title": "Main screen", "src": "/images/alsaeditor01.png" }
         ],
         "links": []
     },
@@ -71,7 +71,7 @@
             "Delphi"
         ],
         "images": [
-            { "title": "Home Page", "src": "/tls01.png" }
+            { "title": "Home Page", "src": "/images/tls01.png" }
         ]
     }
 ]

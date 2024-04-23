@@ -36,7 +36,7 @@ export default {
     width: 70%;
 }
 .image {
-    background-image: url('/an-intricately-set-up-image-serving-as-a-backdrop-for-a-contact-form-page-featuring-a-wooden-desk-s-404969268.jpeg');
+    background-image: url('/images/an-intricately-set-up-image-serving-as-a-backdrop-for-a-contact-form-page-featuring-a-wooden-desk-s-404969268.jpeg');
     background-size: cover;
     background-position: left !important;
 }

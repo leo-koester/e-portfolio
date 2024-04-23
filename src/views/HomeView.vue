@@ -34,7 +34,7 @@
 
 <style scoped >
 .image {
-    background-image: url("/leokoester3.jpg");
+    background-image: url("/images/leokoester3.jpg");
     background-position: center;
 }
 
