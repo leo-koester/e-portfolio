@@ -1,0 +1,1 @@
+const e=[{name:"E-mail",url:"mailto:leo_koester@proton.me",icons:"fa-solid fa-envelope",visible:!0},{name:"LinkedIn",url:"https://linkedin.com/in/leo-koester",icons:"fa-brands fa-linkedin-in",visible:!0},{name:"GitHub",url:"https://github.com/leo-koester",icons:"fa-brands fa-github",visible:!0}];export{e as default};
