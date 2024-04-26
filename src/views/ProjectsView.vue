@@ -39,7 +39,6 @@ export default {
 <style scoped >
 .image {
     min-width: 50%;
-    background-size: auto 110%;
     transition: all 0.5s;
     border-width: 0 1px 0 1px;
     border-style: solid;
@@ -57,5 +56,11 @@ export default {
 
 .main + .main {
     margin-top: 80px
+}
+
+@media screen and ( min-width: 800px ) {
+    .image {
+        background-size: auto 110%;
+    }
 }
 </style>

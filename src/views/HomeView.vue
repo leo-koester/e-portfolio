@@ -2,7 +2,7 @@
     <main class="main box-shadow">
         <div class="image" ></div>
         <div class="details">
-            <h2>Hi, I'm Leo</h2>
+            <h2>Hi, I'm Leo.</h2>
             <h3>Fullstack Developer and System Administrator</h3>
             <p>
                 I started my career as a Web Developer Intern with a representative of CVC, 
@@ -19,10 +19,7 @@
                 I also had some projects written in Delphi by 2007, which ended up growing in me the will to learn more about software programming.
             </p>
             <p>
-                Already in Canada, while pursuing my Computer Systems Technology Diploma at Saskatchewan Polytechnic, 
-                I have improved even further my skills in JavaScript - especially by learning Vue and Node.js - networking, and information security. 
-                This knowledge has enabled me to operate as well on Linux platforms and master multiple security principles.
-                As per my development skills, I have learnt C programming and an introduction to mobile development with Android Studio and Xamarin/MAUI.
+                Already in Canada, while pursuing my Computer Systems Technology Diploma at Saskatchewan Polytechnic, I honed even further my JS skills with Vue, Node.js/Typescript and ORM, as well as networking, and information security, along with learning new programming skills - especially in Java, C, and C# - and an introduction to mobile development with Android Studio and Xamarin/MAUI.
             </p>
             <p>Main interests: Travel, Hicking, Custom Motorcyles, and Rock'n'roll.</p>
         </div>
